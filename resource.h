@@ -1,0 +1,17 @@
+#define IDM_OPEN	0x200
+#define IDM_CLOSE	0x201
+#define IDM_SAVE	0x202
+#define IDM_EXIT	0x203
+#define IDM_ABOUT	0x204
+
+#define ID_RECON_DIM	0x300
+#define ID_LOAD_PROJ	0x301
+#define ID_START_RECON	0x302
+#define ID_CANCEL_RECON	0x303
+#define ID_SAVE_RECON	0x304
+#define ID_LOAD_RECON	0x305
+
+#define ID_REMOVE_METAL 0x306
+
+#define WM_UPDATE_RECON		(WM_APP+1)
+#define WM_RECON_COMPLETE	(WM_APP+2)
